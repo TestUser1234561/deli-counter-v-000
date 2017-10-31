@@ -5,6 +5,7 @@ def line(arr)
     puts "The line is currently empty."
   end
 
+  str = "The line is currently: "
 
 end
 
