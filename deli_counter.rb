@@ -13,5 +13,5 @@ def now_serving(arr)
 
   let cs = "Currently serving #{arr[0]}."
   arr.shift()
-  return cs
+  puts cs
 end
