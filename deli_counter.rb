@@ -20,6 +20,7 @@ def take_a_number(arr, name)
     return
   end
   arr.push(name)
+  puts "Welcome, #{name}. You are number #{number} in line."
 end
 
 def now_serving(arr)
