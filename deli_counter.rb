@@ -3,6 +3,7 @@ katz_deli = []
 def line(arr)
   if(arr.size == 0)
     puts "The line is currently empty."
+    return
   end
 
   str = "The line is currently: "
