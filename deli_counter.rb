@@ -1,4 +1,7 @@
 # Write your code here.
+def line
+
+end
 def nowServing(arr)
   if(arr.size == 0)
     puts "There is nobody waiting to be served!"
