@@ -10,6 +10,7 @@ def line(arr)
     str + "#{index + 1}. #{name} "
   end
 
+  puts str
 
 end
 
