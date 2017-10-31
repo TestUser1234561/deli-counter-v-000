@@ -12,8 +12,8 @@ def line(arr)
   puts str
 end
 
-def take_a_number(arr)
-
+def take_a_number(arr, name)
+  arr.push(name)
 end
 
 def now_serving(arr)
