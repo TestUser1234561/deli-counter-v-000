@@ -29,7 +29,7 @@ def now_serving(arr)
     return
   end
 
-  let cs = "Currently serving #{arr[0]}."
+  cs = "Currently serving #{arr[0]}."
   arr.shift()
   puts cs
 end
