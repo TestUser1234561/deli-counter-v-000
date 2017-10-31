@@ -8,7 +8,7 @@ def line(arr)
 
   str = "The line is currently: "
   arr.each_with_index do |name, index|
-    str + "#{index + 1}. #{name} "
+    str << "#{index + 1}. #{name} "
   end
 
   puts str
