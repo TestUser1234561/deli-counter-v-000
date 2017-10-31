@@ -6,7 +6,7 @@ def line(arr)
   end
 end
 
-def nowServing(arr)
+def now_serving(arr)
   if(arr.size == 0)
     puts "There is nobody waiting to be served!"
   end
