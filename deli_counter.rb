@@ -19,7 +19,7 @@ def take_a_number(arr, name)
     end
     return
   end
-  arr.push(name)
+  number = arr.push(name)
   puts "Welcome, #{name}. You are number #{number} in line."
 end
 
