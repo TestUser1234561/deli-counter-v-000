@@ -13,6 +13,11 @@ def line(arr)
 end
 
 def take_a_number(arr, name)
+  if(name.is_a Array)
+    name.each do |n|
+      arr.push(n)
+    end
+  end
   arr.push(name)
 end
 
