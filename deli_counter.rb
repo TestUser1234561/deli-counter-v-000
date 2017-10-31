@@ -10,7 +10,7 @@ end
 
 def now_serving(arr)
   if(arr.size == 0)
-    puts "There is nobody waiting to be served!"
+    puts "The line is currently empty."
   end
 
   let cs = "Currently serving #{arr[0]}."
