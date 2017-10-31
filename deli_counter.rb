@@ -12,6 +12,10 @@ def line(arr)
   puts str
 end
 
+def take_a_number(arr)
+
+end
+
 def now_serving(arr)
   if(arr.size == 0)
     puts "The line is currently empty."
