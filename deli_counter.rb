@@ -17,6 +17,7 @@ def take_a_number(arr, name)
     name.each do |n|
       arr.push(n)
     end
+    return
   end
   arr.push(name)
 end
